@@ -12,20 +12,15 @@ class Main {
   String sign = scanner.nextLine();
   if (sign.equals("+")) { // addition operation
     System.out.printf("The result for %d %s %d is equal to %d\n", first, sign, second, (first + second));
-  }
-  else if (sign.equals("-")) { // subtraction operation
+  } else if (sign.equals("-")) { // subtraction operation
     System.out.printf("The result for %d %s %d is equal to %d\n", first, sign, second, (first - second));
-  }
-  else if (sign.equals("/")) { // division operation
+  } else if (sign.equals("/")) { // division operation
     System.out.printf("The result for %d %s %d is equal to %d\n", first, sign, second, (first / second));
-  }
-  else if (sign.equals("*")) { // multiplication operation
+  } else if (sign.equals("*")) { // multiplication operation
     System.out.printf("The result for %d %s %d is equal to %d\n", first, sign, second, (first * second));
-  }
-  else if (sign.equals("%")) { // modulus operation
+  } else if (sign.equals("%")) { // modulus operation
     System.out.printf("The result for %d %s %d is equal to %d\n", first, sign, second, (first % second));
-  }
-  else{ //check for invalid input
+  } else{ //check for invalid input
     System.out.println("Please type a valid operator");
     main(args); //restart the program
     }
